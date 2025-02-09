@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./newer.css" />
+    <script
+      src="https://kit.fontawesome.com/ca40d880d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="WP">
+    <header id="WP-header">
+      <div class="WP-Pusher">
+        <img src="./wppusher-logo copy.png" alt="" />
+      </div>
+      <div>
+        <nav id="WP-nav">
+          <a href="#">Download</a>
+          <a href="#">Learn more</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+          <a href="#">Account</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="WP-Main-Container">
+      <div class="content-container">
+        <div class="checkout">
+          <h1>Checkout</h1>
+          <section id="first-section">
+            <div id="basic-information-text">
+              <p id="oval1">1</p>
+              <p>Your Basic Information</p>
+            </div>
+
+            <form id="basic-information-form" action="">
+              <div id="form-names">
+                <div id="Firstname">
+                  <label for="FN">First Name</label>
+
+                  <input
+                    type="text"
+                    id="FN"
+                    name="FN"
+                    placeholder="Jane"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="LN">Last Name</label>
+                  <input
+                    type="text"
+                    id="LN"
+                    name="LN"
+                    placeholder="Doe"
+                    required
+                  />
+                </div>
+              </div>
+
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="janedoe@example.com"
+                required
+              />
+            </form>
+          </section>
+          <section id="second-section">
+            <div id="payment-information-text">
+              <p id="oval2">2</p>
+              <p>Your Payment Information</p>
+            </div>
+            <form id="payment-information-form">
+              <label for="card-number">Credit Card</label>
+              <div id="card-info">
+                <input
+                  type="text"
+                  id="card-number"
+                  name="card-number"
+                  placeholder="Card Number"
+                  maxlength="16"
+                  required
+                />
+                <input
+                  type="text"
+                  id="expiry"
+                  name="expiry"
+                  placeholder="MM / YY"
+                  maxlength="5"
+                  required
+                />
+                <input
+                  type="text"
+                  id="cvc"
+                  name="cvc"
+                  placeholder="CVC"
+                  maxlength="3"
+                  required
+                />
+              </div>
+              <input type="submit" value="Buy WP Pusher" />
+            </form>
+            <p id="checkout-support">
+              <i class="fa-regular fa-question"></i
+              ><strong>Need any help?</strong
+              ><span>Don't hesitate to contact support!</span>
+            </p>
+            <img src="./powered_by_stripe.jpg" id="stripe-logo" alt="" />
+          </section>
+        </div>
+
+        <div class="freelancer">
+          <h2>freelancer</h2>
+          <div id="price">
+            <span id="price-symbol">$</span> <span id="price-number">99</span>
+            <p>/year</p>
+          </div>
+          <p id="renewal">Automatically renews after 1 year</p>
+          <div id="features">
+            <ul>
+              <li><i class="fas fa-check"></i>Use on 5 client sites</li>
+              <li><i class="fas fa-check"></i>Private repositories</li>
+              <li><i class="fas fa-check"></i>Email support</li>
+            </ul>
+          </div>
+          <p id="#client">Need 20 client sites?</p>
+          <a href="#" id="client-link">Switch to the Agency plan.</a>
+          <p id="freelancer-footer">
+            FTP is horrible to deal with. WP pusher solves that issue, and the
+            customer support is awesome!
+          </p>
+          <div id="footer-image">
+            <img src="./Bitmap.png" alt="man" />
+            <p>Kirk Beard</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>&copy; 2018 WP Pusher IVS  <a href="">Terms of Service</a>
+    </footer>
+  </body>
+</html>
